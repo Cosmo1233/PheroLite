@@ -1,2 +1,2 @@
 # PheroLite
-Lightweight Virtual Pheromone Clas
+Lightweight Virtual Pheromone Class
