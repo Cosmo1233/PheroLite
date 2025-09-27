@@ -69,7 +69,7 @@ Phero_c phero(
     start_y,        // Starting Y grid position (default: centre)
     evaporation,    // Evaporation rate 0.0-1.0 (default: 0.036)
     radius,         // Pheromone deposition radius in cells (default: 1)
-    phero_type      // 1=repulsive, 2=attractive (default: 1)
+    phero_type      // 0=no trail, 1=repulsive, 2=attractive (default: 1)
 );
 ```
 ### Runtime Configuration
