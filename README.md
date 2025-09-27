@@ -1,4 +1,4 @@
-# PheromLite
+# PheroLite
 
 **Lightweight Virtual Pheromone Class for Bio-inspired Swarm Coordination**
 
