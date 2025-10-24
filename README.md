@@ -2,12 +2,14 @@
 
 **Lightweight Virtual Pheromone Class for Bio-inspired Swarm Coordination**
 
-A C++ library that implements virtual pheromone-based navigation for swarms. This work is based on a previous paper [1] and simplified to operate with messages as small as 12 bytes. Robots deposit virtual pheromones in a discretised grid map and use local pheromone concentrations to make decentralised movement decisions. Each agent has its own local pheromone map which is updated by itself and asynchronously with neighbouring robots if within range.
+A C++ library that implements virtual pheromone-based navigation for swarms. This work is based on a previous paper [1] and simplified to operate with messages as small as 12 bytes. Robots deposit virtual pheromones in a discretised grid map and use local pheromone concentrations to make decentralised movement decisions. Each agent has its own local pheromone map which is updated by itself and asynchronously with neighbouring robots if within range. 
+The following pdf shows an application of task allocation with a swarm of ground-based robots: [MSc_Robotics_Project_Report_Cosmo_Boyd_Esposito.pdf](https://github.com/user-attachments/files/23123713/MSc_Robotics_Project_Report_Cosmo_Boyd_Esposito.pdf)
+
 
 ## Features
 
 - **Virtual pheromone map**: Made from a 2D array of floats where the integer value represents pheromone type and the decimal represents the pheromone concentration. The map size and cell size are configurable (default 50×50 grid with 20mm cells = 1m × 1m area).
-- **Two pheromone types**: Repulsive (avoidance) and attractive (following), can easily be added to for any chosen type.
+- **Two pheromone types**: Repulsive (avoidance) and attractive (following), can easily be changed for any desired purpose.
 - **ESP-NOW compatible messaging** with 5 different message types for communication
 - **Boundary avoidance** to keep robots within the virtual map area
 - **Configurable parameters**: deposition radius, evaporation rates, message types
