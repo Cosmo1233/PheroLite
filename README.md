@@ -3,7 +3,8 @@
 **Lightweight Virtual Pheromone Class for Bio-inspired Swarm Coordination**
 
 A C++ library that implements virtual pheromone-based navigation for swarms. This work is based on a previous paper [1] and simplified to operate with messages as small as 12 bytes. Robots deposit virtual pheromones in a discretised grid map and use local pheromone concentrations to make decentralised movement decisions. Each agent has its own local pheromone map which is updated by itself and asynchronously with neighbouring robots if within range. 
-The following pdf shows an application of task allocation with a swarm of ground-based robots: [MSc_Robotics_Project_Report_Cosmo_Boyd_Esposito.pdf](https://github.com/user-attachments/files/23123713/MSc_Robotics_Project_Report_Cosmo_Boyd_Esposito.pdf)
+
+An application of this library for task allocation with a swarm of ground-based robots is detailed in [MSc_Thesis.pdf](https://github.com/user-attachments/files/23123787/MSc_Thesis.pdf).
 
 
 ## Features
